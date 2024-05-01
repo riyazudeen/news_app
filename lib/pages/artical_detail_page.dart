@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:intl/intl.dart';
-import 'package:news_app/modul/news_data.dart';
 import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
+
+import '../model_class/news_data.dart';
 
 class ArticleDetail extends StatefulWidget {
   final Articles articleDetail;

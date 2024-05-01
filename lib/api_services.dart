@@ -3,7 +3,8 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:intl/intl.dart';
 
-import 'modul/news_data.dart';
+import 'model_class/news_data.dart';
+
 
 final dio = Dio();
 
@@ -73,7 +74,7 @@ class ApiServices{
 
 Future<NewsData> getNewsData() async {
  // print(myFormat.format(DateTime.now()));
-  Map<String, dynamic> response = await _helper.get('https://newsapi.org/v2/everything?q=tesla&from=2024-03-29&sortBy=publishedAt&apiKey=8aa8f4f91bb5414cbe669cd59f08092a');
+  Map<String, dynamic> response = await _helper.get('https://newsapi.org/v2/everything?q=tesla&from=2024-04-29&sortBy=publishedAt&apiKey=8aa8f4f91bb5414cbe669cd59f08092a');
   return newsDataApiResponse(response);
 }
 }

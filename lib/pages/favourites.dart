@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:intl/intl.dart';
-import 'package:news_app/modul/news_data.dart';
 
+
+import '../model_class/news_data.dart';
 import '../provider/favourite_provider.dart';
 import 'artical_detail_page.dart';
 class Favourites extends ConsumerStatefulWidget {

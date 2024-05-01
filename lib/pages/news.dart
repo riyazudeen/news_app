@@ -5,10 +5,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:intl/intl.dart';
-import 'package:news_app/modul/news_data.dart';
 import 'package:news_app/pages/artical_detail_page.dart';
 
 import '../api_services.dart';
+import '../model_class/news_data.dart';
 import '../provider/favourite_provider.dart';
 class News extends ConsumerStatefulWidget {
   const News({super.key});
